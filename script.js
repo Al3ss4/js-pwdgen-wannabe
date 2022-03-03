@@ -3,6 +3,7 @@ var nome = prompt ( 'Qual è il tuo nome?');
 
 //console.log(nome);
 
+
 // prompt per chiedere il nome
 var cognome = prompt ( 'Qual è il tuo cognome?');
 
@@ -14,9 +15,13 @@ var colore = prompt ( 'Qual è il tuo colore preferito?');
 
 //console.log(colore);
 
+
 // password (in)sicura
 var password = ( nome + cognome + colore +21 ); 
-console.log( password )
+
+console.log( password );
+
 
 //password insicura HTML
 document.getElementById('psw').innerHTML = ' La tua password è ' + password ;
+
