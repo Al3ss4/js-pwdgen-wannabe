@@ -17,11 +17,22 @@ var colore = prompt ( 'Qual è il tuo colore preferito?');
 
 
 // password (in)sicura
-var password = ( nome + cognome + colore +21 ); 
+var password = (
 
+// prima versione    
+//( nome + cognome + colore +21 );
+
+// seconda versione
+
+    `
+    ${nome}${cognome}${colore}${'21'} 
+
+    `
+);
 console.log( password );
 
 
 //password insicura HTML
 document.getElementById('psw').innerHTML = ' La tua password è ' + password ;
+
 
