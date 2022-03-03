@@ -1,16 +1,16 @@
 // prompt per chiedere il nome
-const nome = prompt ( 'Qual è il tuo nome?');
+var nome = prompt ( 'Qual è il tuo nome?');
 
 console.log(nome);
 
 // prompt per chiedere il nome
-const cognome = prompt ( 'Qual è il tuo cognome?');
+var cognome = prompt ( 'Qual è il tuo cognome?');
 
 console.log(cognome);
 
 
 // prompt per chiedere il colore preferito
-const colore = prompt ( 'Qual è il tuo colore preferito?');
+var colore = prompt ( 'Qual è il tuo colore preferito?');
 
 console.log(colore);
 
